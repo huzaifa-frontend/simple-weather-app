@@ -47,3 +47,4 @@ searchBtn.addEventListener("click", () => {
     weatherDisplay.innerHTML = `<p style="color: red;">Please enter a city name.</p>`;
   }
 });
+
