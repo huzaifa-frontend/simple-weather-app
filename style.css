@@ -1,65 +1,65 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    min-height: 90vh;
-    background: url('assets/background.jpg') no-repeat center center/cover;
-    color: white;
-  }
-  
-  /* Weather app container */
-  .weather-app {
-    margin: 50px auto;
-    max-width: 500px;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-  }
-  
-  /* Input and button styling */
-  input, button {
-    padding: 10px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  /* Input field styling */
-  input {
-    width: 70%;
-    outline: none;
-  }
-  
-  /* Button styling */
-  button {
-    background: #00aaff;
-    color: white;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  button:hover {
-    background: #0077cc;
-  }
-  
-  /* Weather display area */
-  #weather-display {
-    margin-top: 20px;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 15px;
-    border-radius: 10px;
-  }
-  
-  #weather-display h2 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
-  #weather-display p {
-    margin: 5px 0;
-    font-size: 18px;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 90vh;
+  background: url("assets/background.jpg") no-repeat center center/cover;
+  color: white;
+}
+
+/* Weather app container */
+.weather-app {
+  margin: 50px auto;
+  max-width: 500px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Input and button styling */
+input,
+button {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Input field styling */
+input {
+  width: 70%;
+  outline: none;
+}
+
+/* Button styling */
+button {
+  background: #00aaff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0077cc;
+}
+
+/* Weather display area */
+#weather-display {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#weather-display h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#weather-display p {
+  margin: 5px 0;
+  font-size: 18px;
+}
